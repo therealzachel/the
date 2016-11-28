@@ -1,0 +1,119 @@
+/* Stylesheet by quackit.com */
+/* Modified by github.com/tengrrl */
+
+  body {
+    margin:0;
+    padding:0;
+    font-family: Sans-Serif;
+    line-height: 1.5em;
+  }
+
+  /* Change the background color    */
+  /* of the header below, or add a  */
+  /* link to a background image     */
+  /* and remove the comment code.   */
+  /* Background image should be     */
+  /* 100px by 100px tile.   kitten        */
+header {
+    background: gold;
+    height: 100px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Steven_Universe_logo.svg/250px-Steven_Universe_logo.svg.png");
+    background-repeat: repeat-x; */
+  }
+
+  header h1 {
+    margin: 0;
+    padding-top: 15px;
+  }
+
+  main {
+    padding-bottom: 10010px;
+    margin-bottom: -10000px;
+    float: left;
+    width: 100%;
+    background-color: Lavender;
+  }
+
+  /* Change the background color   */
+  /* of the menu bar column below. */
+  nav {
+    padding-left: 15px;
+    background: #ff4545;
+  }
+
+  /* Change the background     */
+  /* color of the footer below */
+  footer {
+    clear: left;
+    width: 100%;
+    background: #ff4545;
+    padding: 4px 0;
+  }
+
+  #wrapper {
+    overflow: hidden;
+  }
+
+  .innertube {
+    margin: 15px; /* Padding for content */
+    margin-top: 0;
+  }
+
+  p {
+    color: #000;
+  }
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav ul a {
+    color: darkgreen;
+    text-decoration: none;
+  }
+
+  /* Additions to support the external */
+  /* iframe files */
+
+.site-header {
+    margin: 0;
+    padding-top: 15px;
+    font-family: Sans-Serif;
+    color: black;
+  }
+
+.site-footer{
+    text-align: center;
+  }
+
+.site-menu {
+text-align: left;
+margin: 0px 0 0 ;
+padding: 10px 0;
+}
+
+.site-menu ul{
+  list-style: none;
+  margin: 0 2px;
+  padding: 0;
+}
+
+.site-menu li {
+   display: inline-block;
+   padding: 0px 10px;
+}
+
+.site-menu a {
+  font-weight: normal;
+  padding: 0px 5px;
+  font-size: 18px;
+  color: black;
+}
+
+/* Change the mouseover    */
+/* color of the menu below */
+.site-menu a:hover {
+  color: gold;
+}
